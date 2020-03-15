@@ -4,6 +4,8 @@
 #include <ctime>
 #include "windows.h"
 
+
+//теория массового обслуживания matburo
 using namespace std;
 
 double random(){
@@ -31,6 +33,7 @@ bool left(double alpha){
 		1 за 45 сек - 0.02222
 		1 за 20 сек -  0.05
 	*/
+	
 	
 	double P;
 	P = alpha / exp(alpha);
